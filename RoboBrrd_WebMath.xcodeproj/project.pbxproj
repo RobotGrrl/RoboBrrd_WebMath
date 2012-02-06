@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60B2C8614DD840200E8C89A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60B2C8514DD840200E8C89A /* UIKit.framework */; };
+		B60B2C8814DD840200E8C89A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60B2C8714DD840200E8C89A /* Foundation.framework */; };
+		B60B2C8A14DD840200E8C89A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60B2C8914DD840200E8C89A /* CoreGraphics.framework */; };
+		B60B2C9014DD840200E8C89A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B60B2C8E14DD840200E8C89A /* InfoPlist.strings */; };
+		B60B2C9214DD840200E8C89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B2C9114DD840200E8C89A /* main.m */; };
+		B60B2C9614DD840200E8C89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B2C9514DD840200E8C89A /* AppDelegate.m */; };
+		B60B2C9914DD840200E8C89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B2C9814DD840200E8C89A /* ViewController.m */; };
+		B60B2C9C14DD840200E8C89A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B2C9A14DD840200E8C89A /* ViewController_iPhone.xib */; };
+		B60B2C9F14DD840200E8C89A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B2C9D14DD840200E8C89A /* ViewController_iPad.xib */; };
+		B60B2CAB14DD8A5F00E8C89A /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60B2CAA14DD8A5F00E8C89A /* libRscMgrUniv.a */; };
+		B60B2CAD14DD8A9000E8C89A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60B2CAC14DD8A9000E8C89A /* ExternalAccessory.framework */; };
+		B60B2CB514DD8EF600E8C89A /* GreenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B2CB314DD8EF600E8C89A /* GreenLight.png */; };
+		B60B2CB614DD8EF600E8C89A /* RedLight.png in Resources */ = {isa = PBXBuildFile; fileRef = B60B2CB414DD8EF600E8C89A /* RedLight.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60B2C8114DD840200E8C89A /* RoboBrrd_WebMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboBrrd_WebMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B2C8514DD840200E8C89A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B60B2C8714DD840200E8C89A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B60B2C8914DD840200E8C89A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B60B2C8D14DD840200E8C89A /* RoboBrrd_WebMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoboBrrd_WebMath-Info.plist"; sourceTree = "<group>"; };
+		B60B2C8F14DD840200E8C89A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B60B2C9114DD840200E8C89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60B2C9314DD840200E8C89A /* RoboBrrd_WebMath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoboBrrd_WebMath-Prefix.pch"; sourceTree = "<group>"; };
+		B60B2C9414DD840200E8C89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60B2C9514DD840200E8C89A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60B2C9714DD840200E8C89A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60B2C9814DD840200E8C89A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B60B2C9B14DD840200E8C89A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B60B2C9E14DD840200E8C89A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B60B2CA714DD8A5F00E8C89A /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		B60B2CA814DD8A5F00E8C89A /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		B60B2CAA14DD8A5F00E8C89A /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		B60B2CAC14DD8A9000E8C89A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B60B2CB314DD8EF600E8C89A /* GreenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenLight.png; sourceTree = "<group>"; };
+		B60B2CB414DD8EF600E8C89A /* RedLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60B2C7E14DD840200E8C89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B2CAD14DD8A9000E8C89A /* ExternalAccessory.framework in Frameworks */,
+				B60B2C8614DD840200E8C89A /* UIKit.framework in Frameworks */,
+				B60B2C8814DD840200E8C89A /* Foundation.framework in Frameworks */,
+				B60B2C8A14DD840200E8C89A /* CoreGraphics.framework in Frameworks */,
+				B60B2CAB14DD8A5F00E8C89A /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60B2C7614DD840200E8C89A = {
+			isa = PBXGroup;
+			children = (
+				B60B2CB214DD8EF600E8C89A /* images */,
+				B60B2CA514DD8A5F00E8C89A /* Redpark SDK */,
+				B60B2C8B14DD840200E8C89A /* RoboBrrd_WebMath */,
+				B60B2C8414DD840200E8C89A /* Frameworks */,
+				B60B2C8214DD840200E8C89A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60B2C8214DD840200E8C89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2C8114DD840200E8C89A /* RoboBrrd_WebMath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60B2C8414DD840200E8C89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2CAC14DD8A9000E8C89A /* ExternalAccessory.framework */,
+				B60B2C8514DD840200E8C89A /* UIKit.framework */,
+				B60B2C8714DD840200E8C89A /* Foundation.framework */,
+				B60B2C8914DD840200E8C89A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B60B2C8B14DD840200E8C89A /* RoboBrrd_WebMath */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2C9414DD840200E8C89A /* AppDelegate.h */,
+				B60B2C9514DD840200E8C89A /* AppDelegate.m */,
+				B60B2C9714DD840200E8C89A /* ViewController.h */,
+				B60B2C9814DD840200E8C89A /* ViewController.m */,
+				B60B2C9A14DD840200E8C89A /* ViewController_iPhone.xib */,
+				B60B2C9D14DD840200E8C89A /* ViewController_iPad.xib */,
+				B60B2C8C14DD840200E8C89A /* Supporting Files */,
+			);
+			path = RoboBrrd_WebMath;
+			sourceTree = "<group>";
+		};
+		B60B2C8C14DD840200E8C89A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2C8D14DD840200E8C89A /* RoboBrrd_WebMath-Info.plist */,
+				B60B2C8E14DD840200E8C89A /* InfoPlist.strings */,
+				B60B2C9114DD840200E8C89A /* main.m */,
+				B60B2C9314DD840200E8C89A /* RoboBrrd_WebMath-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60B2CA514DD8A5F00E8C89A /* Redpark SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2CA614DD8A5F00E8C89A /* inc */,
+				B60B2CA914DD8A5F00E8C89A /* lib */,
+			);
+			path = "Redpark SDK";
+			sourceTree = "<group>";
+		};
+		B60B2CA614DD8A5F00E8C89A /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2CA714DD8A5F00E8C89A /* redparkSerial.h */,
+				B60B2CA814DD8A5F00E8C89A /* RscMgr.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		B60B2CA914DD8A5F00E8C89A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2CAA14DD8A5F00E8C89A /* libRscMgrUniv.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B60B2CB214DD8EF600E8C89A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B60B2CB314DD8EF600E8C89A /* GreenLight.png */,
+				B60B2CB414DD8EF600E8C89A /* RedLight.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60B2C8014DD840200E8C89A /* RoboBrrd_WebMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60B2CA214DD840200E8C89A /* Build configuration list for PBXNativeTarget "RoboBrrd_WebMath" */;
+			buildPhases = (
+				B60B2C7D14DD840200E8C89A /* Sources */,
+				B60B2C7E14DD840200E8C89A /* Frameworks */,
+				B60B2C7F14DD840200E8C89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboBrrd_WebMath;
+			productName = RoboBrrd_WebMath;
+			productReference = B60B2C8114DD840200E8C89A /* RoboBrrd_WebMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60B2C7814DD840200E8C89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = robotgrrl.com;
+			};
+			buildConfigurationList = B60B2C7B14DD840200E8C89A /* Build configuration list for PBXProject "RoboBrrd_WebMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B60B2C7614DD840200E8C89A;
+			productRefGroup = B60B2C8214DD840200E8C89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60B2C8014DD840200E8C89A /* RoboBrrd_WebMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60B2C7F14DD840200E8C89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B2C9014DD840200E8C89A /* InfoPlist.strings in Resources */,
+				B60B2C9C14DD840200E8C89A /* ViewController_iPhone.xib in Resources */,
+				B60B2C9F14DD840200E8C89A /* ViewController_iPad.xib in Resources */,
+				B60B2CB514DD8EF600E8C89A /* GreenLight.png in Resources */,
+				B60B2CB614DD8EF600E8C89A /* RedLight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60B2C7D14DD840200E8C89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B2C9214DD840200E8C89A /* main.m in Sources */,
+				B60B2C9614DD840200E8C89A /* AppDelegate.m in Sources */,
+				B60B2C9914DD840200E8C89A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B60B2C8E14DD840200E8C89A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B2C8F14DD840200E8C89A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B60B2C9A14DD840200E8C89A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B2C9B14DD840200E8C89A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B60B2C9D14DD840200E8C89A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B2C9E14DD840200E8C89A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60B2CA014DD840200E8C89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60B2CA114DD840200E8C89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60B2CA314DD840200E8C89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoboBrrd_WebMath/RoboBrrd_WebMath-Prefix.pch";
+				INFOPLIST_FILE = "RoboBrrd_WebMath/RoboBrrd_WebMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Redpark SDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B60B2CA414DD840200E8C89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoboBrrd_WebMath/RoboBrrd_WebMath-Prefix.pch";
+				INFOPLIST_FILE = "RoboBrrd_WebMath/RoboBrrd_WebMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Redpark SDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60B2C7B14DD840200E8C89A /* Build configuration list for PBXProject "RoboBrrd_WebMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B2CA014DD840200E8C89A /* Debug */,
+				B60B2CA114DD840200E8C89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60B2CA214DD840200E8C89A /* Build configuration list for PBXNativeTarget "RoboBrrd_WebMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B2CA314DD840200E8C89A /* Debug */,
+				B60B2CA414DD840200E8C89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60B2C7814DD840200E8C89A /* Project object */;
+}
